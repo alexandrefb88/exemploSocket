@@ -22,7 +22,7 @@ public class Exemplo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        try (ServerSocket server = new ServerSocket(8080);){
+        try (ServerSocket server = new ServerSocket(9000);){
             
             Socket socket = server.accept();
             Scanner scan = new Scanner(socket.getInputStream());
